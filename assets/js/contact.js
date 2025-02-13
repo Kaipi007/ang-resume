@@ -1,7 +1,7 @@
 'use strict';
 
 // Initialize EmailJS with your user ID
-emailjs.init("txZlWvMpxWSu94Qgk"); // Replace with your EmailJS User ID
+emailjs.init("-cumSpRfd2AnvkYe8"); // Replace with your EmailJS User ID
 
 // Select the form and its inputs
 const form = document.querySelector('[data-form]');
@@ -39,7 +39,7 @@ form.addEventListener('submit', function (event) {
     console.log('Message:', message);
 
     // Use EmailJS to send the email
-    emailjs.send("service_03klsbh", "template_p23vbdo", {
+    emailjs.send("service_kjbaojf", "template_p23vbdo", {
         to_name: "ahxuan0914@gmail.com",
         from_name: fullname, 
         email:email,
@@ -47,10 +47,9 @@ form.addEventListener('submit', function (event) {
     })
     .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
-        // Optionally, reset the form and disable the button again
         form.reset();
         checkInputs(); // Recheck to disable the button again
-        alert('Message sent successfully!'); // Optional success message
+        alert('Message sent successfully!'); 
     }, (error) => {
         console.log('FAILED...', error);
         alert('Failed to send message. Please try again.'); // Optional error message
