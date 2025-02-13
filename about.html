@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ang's Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+ <main>
+ 
+  <aside class="sidebar" data-sidebar>
+    <div class="sidebar-info">
+      <figure class="avatar-box">
+        <img src="./assets/images/ang.png" alt="kenie" width="80">
+      </figure>
+   
+      <div class="info-content">
+        <h1 class="name" title="Ang Jia Xuan">Ang Jia Xuan, Kenie</h1>
+        <p class="title">Business Information System Graduate</p>
+      </div>
+
+      <button class="info_more-btn" data-sidebar-btn>
+        <span>Show Contacts</span>
+        <ion-icon name="chevron-down"></ion-icon>
+      </button>
+  </div> 
+
+  <div class="sidebar-info_more">
+    <div class="separator"></div>
+
+    <ul class="contacts-list">
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="mail-outline"></ion-icon>
+        </div>
+
+        <div class="contact-info">
+          <p class="contact-title">Email</p>
+          <a href="mailto:kenniejiaxuan@gmail.com" class="contact-link">kenniejiaxuan@gmail.com</a>
+        </div>
+      </li>
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="phone-portrait-outline"></ion-icon>
+        </div>
+
+        <div class="contact-info">
+          <p class="contact-title">Phone</p>
+          <a href="tel:+6016-9602350" class="contact-link">+6016-9602350</a>
+        </div>
+      </li>
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="calendar-outline"></ion-icon>
+        </div>
+
+        <div class="contact-info">
+          <p class="contact-title">Birthday</p>
+          <time datetime="2000-09-14">14 September 2000</time>
+        </div>
+      </li>
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="compass-outline"></ion-icon>
+        </div>
+
+        <div class="contact-info">
+          <p class="contact-title">Location</p>
+          <address>Mentakab, Pahang</address>
+        </div>
+      </li>
+
+    </ul>
+ 
+
+    <div class="separator"></div>
+
+    <ul class="social-list">
+
+      <li class="social-item">
+
+        <a href="#" class="social-link">
+
+          <ion-icon name="logo-facebook"></ion-icon>
+
+        </a>
+
+      </li>
+
+      <li class="social-item">
+
+        <a href="#" class="social-link">
+
+          <ion-icon name="logo-instagram"></ion-icon>
+
+        </a>
+      </li>
+    </ul>
+  </div>
+  </aside>
+  
+
+<div class="main-content">
+  <nav class="navbar">
+    <ul class="navbar-list">
+      <li class="navbar-item">
+        <button class="navbar-link active" data-nav-link>About</button>
+      </li>
+
+
+      <li class="navbar-item">
+        <a href="resume.html" class="navbar-link" data-nav-link="resume">Resume</a>
+      </li>
+
+      <li class="navbar-item">
+        <a href="contact.html" class="navbar-link" data-nav-link="contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- about -->
+   <article class="about active" data-page="about">
+    <header>
+      <h2 class="h2 article-title">About Me</h2>
+    </header>
+
+    <section class="about-text">
+      <p>
+        I'm an IB Graduate that's trying to improve her coding skills
+         and likes to watch Table Tennis Match. I would like to
+          be a programmer that can code my own project one day. 
+      </p>
+     
+      <p> <br>
+        I learned different skills like HTML, Android Studio, Python
+        , MySql, Visual Studio Code. 
+
+      </p>
+    </section>
+
+    <!-- what i am doing  -->
+     <section class="service">
+      <h3 class="h3 service-title">What I've learned</h3>
+
+      <ul class="service-list">
+        <li class="service-item">
+
+            <div class="service-icon-box">
+              <ion-icon name="logo-html5"></ion-icon>
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Web Designing</h4>
+             
+              <p class="service-item-text">
+                Can handle simple and high-quality design.
+              </p>
+            </div>
+        </li>
+
+          <li class="service-item">
+            <div class="service-icon-box">
+              <ion-icon name="logo-android"></ion-icon>
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Android Studio</h4>
+
+              <p class="service-item-text">
+                Familiar with Visual Studio 2019 (MVC model).
+              </p>
+            </div>
+          </li>
+
+          <li class="service-item">
+            <div class="service-icon-box">
+              <ion-icon name="library-outline"></ion-icon>
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-content-box">Database</h4>
+
+              <p class="service-item-text">
+                Familiar with Firebase Console and MySql Database.
+              </p>
+            </div>
+          </li>
+
+          <li class="service-item">
+            <div class="service-icon-box">
+              <ion-icon name="pencil-outline" ></ion-icon>
+            </div>
+            
+            <div class="service-content-box">
+              
+              <h4 class="h4 service-content-box">Diagrams</h4>
+             
+              <p class="service-item-text">
+                Familiar with flow chart diagrams and activity diagrams.
+              </p>
+            </div>
+          </li>
+
+        </li>
+      </ul>
+     </section>
+   </article>
+
+   <article class="resume" data-page="resume">
+    <header>
+    <h2 class="h2 article-title">Resume</h2>
+    </header>
+    
+    <section class="timeline">
+        <div class="title-wrapper">
+            <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+            </div>
+  
+            <h3 class="h3">Education</h3>
+        </div>
+  
+        <ol class="timeline-list">
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">University Tunku Abdul Rahman</h4>
+            </li>
+        </ol>
+    </section>
+  </article>
+</div>
+
+
+
+ </main>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
