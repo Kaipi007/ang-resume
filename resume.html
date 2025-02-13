@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+ <main>
+ 
+  <aside class="sidebar" data-sidebar>
+    <div class="sidebar-info">
+      <figure class="avatar-box">
+        <img src="./assets/images/ang.png" alt="kenie" width="80">
+      </figure>
+   
+      <div class="info-content">
+        <h1 class="name" title="Ang Jia Xuan">Ang Jia Xuan, Kenie</h1>
+        <p class="title">Business Information System Graduate</p>
+      </div>
+
+      <button class="info_more-btn" data-sidebar-btn>
+        <span>Show Contacts</span>
+        <ion-icon name="chevron-down"></ion-icon>
+      </button>
+  </div> 
+
+  <div class="sidebar-info_more">
+    <div class="separator"></div>
+
+    <ul class="contacts-list">
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="mail-outline"></ion-icon>
+        </div>
+
+        <div class="contact-info">
+          <p class="contact-title">Email</p>
+          <a href="mailto:kenniejiaxuan@gmail.com" class="contact-link">kenniejiaxuan@gmail.com</a>
+        </div>
+      </li>
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="phone-portrait-outline"></ion-icon>
+        </div>
+
+        <div class="contact-info">
+          <p class="contact-title">Phone</p>
+          <a href="tel:+6016-9602350" class="contact-link">+6016-9602350</a>
+        </div>
+      </li>
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="calendar-outline"></ion-icon>
+        </div>
+
+        <div class="contact-info">
+          <p class="contact-title">Birthday</p>
+          <time datetime="2000-09-14">14 September 2000</time>
+        </div>
+      </li>
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="compass-outline"></ion-icon>
+        </div>
+
+        <div class="contact-info">
+          <p class="contact-title">Location</p>
+          <address>Mentakab, Pahang</address>
+        </div>
+      </li>
+
+    </ul>
+ 
+
+    <div class="separator"></div>
+
+    <ul class="social-list">
+
+      <li class="social-item">
+
+        <a href="#" class="social-link">
+
+          <ion-icon name="logo-facebook"></ion-icon>
+
+        </a>
+
+      </li>
+
+      <li class="social-item">
+
+        <a href="#" class="social-link">
+
+          <ion-icon name="logo-instagram"></ion-icon>
+
+        </a>
+      </li>
+    </ul>
+  </div>
+  </aside>
+  
+
+<div class="main-content">
+  <nav class="navbar">
+    <ul class="navbar-list">
+      
+      <li class="navbar-item">
+        <a href="index.html" class="navbar-link" data-nav-link="about">About</a>
+      </li>
+
+      <li class="navbar-item">
+        <button class="navbar-link active" data-nav-link>Resume</button>
+      </li>
+
+      <li class="navbar-item">
+        <a href="contact.html" class="navbar-link" data-nav-link="about">About</a>
+      </li>
+
+    </ul>
+  </nav>
+
+  
+
+   <article class="resume active" data-page="resume">
+    <header>
+    <h2 class="h2 article-title">Resume</h2>
+    </header>
+    
+    <section class="timeline">
+        <div class="title-wrapper">
+            <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+            </div>
+  
+            <h3 class="h3">Education</h3>
+        </div>
+  
+        <ol class="timeline-list">
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">2021-2024</h4>
+                <span>University Tunku Abdul Rahman</span>
+
+                <p class="timeline-text">
+                    I studied as a full time Business Information Systems student in Kampar, Perak.
+                    I learned different skills like Android Studio and Html
+                    to understand more about how front end works and Firebase Console
+                    and MySql for backend.
+                </p>
+            </li>
+
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">2024-Current</h4>
+                
+                <p class="timeline-text">
+                    I am trying out different open projects available on Github.
+                    I learned new skills like hosting a domain with Wordpress and 
+                    understand how SEO can help the companies to improve their visibilty
+                    to the audience that are looking for service or product that they 
+                    are serving.
+                </p>
+            </li>
+        </ol>
+    </section>
+
+    <section class="timeline">
+        <div class="title-wrapper">
+            <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+        </div>
+
+        <ol class="timeline-list">
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Internship</h4>
+
+                <span>23 October 2023 -20 January 2024</span>
+                <p class="timeline-text">
+                    I was assigned with task to develop software, perform Reasearch
+                    and Development for the project functions and made documentation for the project. I was also taught
+                    to use different APIs that are available like Google Map API, AdminLTE API.
+                </p>
+            </li>
+        </ol>
+    </section>
+
+
+    <section class="skill">
+        <h3 class="h3 skills-title">My Skills</h3>
+
+        <ul class="skills-list content-card">
+            <li class="skills-item">
+                <div class="title-wrapper">
+                    <h5 class="h5">MySQL</h5>
+                    <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 50%;"></div>
+                </div>
+            </li>
+
+            <li class="skills-item">
+                <div class="title-wrapper">
+                    <h5 class="h5">Web Design</h5>
+                    <data value="60">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 60%;"></div>
+                </div>
+            </li>
+
+            <li class="skills-item">
+                <div class="title-wrapper">
+                    <h5 class="h5">Visual Studio 2019</h5>
+                    <data value="60">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 60%;"></div>
+                </div>
+            </li>
+
+            <li class="skills-item">
+                <div class="title-wrapper">
+                    <h5 class="h5">Visual Studio</h5>
+                    <data value="70">70%</data>
+                </div>
+
+
+                <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 70%;"></div>
+                </div>
+            </li>
+
+            <li class="skills-item">
+                <div class="title-wrapper">
+                    <h5 class="h5">API connection</h5>
+                    <data value="75">75%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 75%;"></div>
+                </div>
+            </li>
+        </ul>
+    </section>
+  </article>
+</div>
+
+
+
+ </main>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
